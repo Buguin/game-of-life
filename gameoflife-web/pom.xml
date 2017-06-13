@@ -162,11 +162,19 @@
             <artifactId>fest-assert</artifactId>
             <version>1.4</version>
         </dependency>
+        <!-- [ERROR] SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/D:/Users/buguin/Maven_Repo/ch/qos/logback/logback-classic/1.0.13/logback-classic-1.0.13.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/D:/Users/buguin/Maven_Repo/org/slf4j/slf4j-simple/1.6.1/slf4j-simple-1.6.1.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [ch.qos.logback.classic.util.ContextSelectorStaticBinder] -->
+        
+        <!-- 
         <dependency>
             <groupId>org.slf4j</groupId>
             <artifactId>slf4j-simple</artifactId>
             <version>1.6.1</version>
         </dependency>
+         -->
         <dependency>
             <groupId>org.slf4j</groupId>
             <artifactId>slf4j-api</artifactId>
